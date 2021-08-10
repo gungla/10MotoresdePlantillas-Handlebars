@@ -1,0 +1,16 @@
+<form action="/api/productos/guardar" method="POST">
+    <h1>PRODUCTO NUEVO</h1>
+    <div class="mb-3">
+        <label for="title" class="form-label">Nombre del producto</label>
+        <input type="text" id="text" name="title"></input>
+    </div>
+    <div class="mb-3">
+        <label for="price" class="form-label">Precio</label>
+        <input type="text" id="price" name="price"></input>
+    </div>
+    <div class="mb-3">
+        <label for="thumbnail" class="form-label">Imagen</label>
+        <input type="text" id="thumbnail" name="thumbnail"></input>
+    </div>
+    <button type="submit" class="btn btn-primary" href="/api/productos/guardar">Guardar producto</button>
+</form>
